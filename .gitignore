@@ -1,2 +1,6 @@
-target/*
-.idea/*
+# Maven
+target/
+
+# IntelliJ Idea
+.idea/
+out/
