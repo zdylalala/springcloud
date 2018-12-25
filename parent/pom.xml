@@ -33,7 +33,7 @@
     </dependencyManagement>
 
     <modules>
-        <module>../eureka</module>
+        <module>eureka</module>
     </modules>
 
 </project>

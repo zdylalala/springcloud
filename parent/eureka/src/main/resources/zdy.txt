@@ -1,0 +1,4 @@
+1 版本号: Spring boot 2.0.7 Spring Cloud Finchley.SR2
+2 项目启动后报错，"Cannot execute request on any known server" ，因为server端也会把自己当做client去注册，默认地址是8761
+3 该玩端口号后，要把register-with-eureka: false 配置上，不要自己注册到自己身上
+4 当做高可用的时候，这个要改成true，因为要注册到其他的eureka上
