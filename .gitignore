@@ -1,5 +1,6 @@
 *#
 *.iml
+**.iml
 *.ipr
 *.iws
 *.jar
@@ -41,6 +42,7 @@ secrets.yml
 
 
 *.class
+**.class
 **/target
 **/webapp/userfiles
 **/WEB-INF/classes
